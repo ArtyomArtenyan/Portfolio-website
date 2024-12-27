@@ -1,5 +1,6 @@
 import { FaGithub, FaInstagram, FaLinkedinIn } from 'react-icons/fa';
 import { FaSquareXTwitter } from 'react-icons/fa6';
+import BurgerMenu from './BurgerMenu';
 const Header = () => {
 	return (
 		<div className='mb-20 flex justify-between items-center py-8'>
@@ -31,12 +32,13 @@ const Header = () => {
 					</g>
 				</svg>{' '}
 			</div>
-			<div className=' flex items-center justify-center gap-4 text-2xl'>
+			<div className=' flex items-center justify-center gap-4 text-2xl max-w-ss:hidden'>
 				<FaLinkedinIn />
 				<FaGithub />
 				<FaSquareXTwitter />
 				<FaInstagram />
 			</div>
+			<BurgerMenu />
 		</div>
 	);
 };
