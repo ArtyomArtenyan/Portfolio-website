@@ -1,4 +1,5 @@
 import Header from './components/Header';
+import Hero from './components/Hero';
 import './index.css';
 
 const App = () => {
@@ -9,6 +10,7 @@ const App = () => {
 			</div>
 			<div className='mx-auto px-48 max-w-2xl:px-32 max-w-xl:px-24 max-w-lg:px-24 max-w-md:px-12'>
 				<Header />
+				<Hero />
 			</div>
 		</div>
 	);
