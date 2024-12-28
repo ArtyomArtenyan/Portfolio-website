@@ -1,6 +1,7 @@
 import About from './components/About';
 import Header from './components/Header';
 import Hero from './components/Hero';
+import Technologies from './components/Technologies';
 import './index.css';
 
 const App = () => {
@@ -13,6 +14,7 @@ const App = () => {
 				<Header />
 				<Hero />
 				<About />
+				<Technologies />
 			</div>
 		</div>
 	);
