@@ -2,6 +2,7 @@ import About from './components/About';
 import Experience from './components/Experience';
 import Header from './components/Header';
 import Hero from './components/Hero';
+import Projects from './components/Projects';
 import Technologies from './components/Technologies';
 import './index.css';
 
@@ -17,6 +18,7 @@ const App = () => {
 				<About />
 				<Technologies />
 				<Experience />
+				<Projects />
 			</div>
 		</div>
 	);
