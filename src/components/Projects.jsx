@@ -1,22 +1,40 @@
+import { motion } from 'framer-motion';
 import React from 'react';
-import { PROJECTS } from '../dataBase'; // Ensure this is imported correctly
+import { PROJECTS } from '../dataBase';
 
 const Projects = () => {
 	return (
 		<div className='border-b border-neutral-900 pb-24'>
-			<h2 className='my-20 text-center text-4xl'>Projects</h2>
+			<motion.h2
+				whileInView={{ opacity: 1, y: 0 }}
+				initial={{ opacity: 0, y: -100 }}
+				transition={{ duration: 1.5 }}
+				className='my-20 text-center text-4xl'
+			>
+				Projects
+			</motion.h2>
 			<div>
 				{PROJECTS.map((project, i) => (
 					<div key={i} className='flex mb-8 flex-wrap justify-center'>
-						<div className='w-1/4 max-w-md:w-full'>
+						<motion.div
+							whileInView={{ opacity: 1, x: 0 }}
+							initial={{ opacity: 0, x: -100 }}
+							transition={{ duration: 1 }}
+							className='w-1/4 max-w-md:w-full'
+						>
 							<img
 								src={project.image}
 								alt={project.title}
 								className='rounded w-[150px] h-auto object-cover mb-6'
 							/>
-						</div>
+						</motion.div>
 
-						<div className='w-3/4 max-w-xl max-w-md:w-full'>
+						<motion.div
+							whileInView={{ opacity: 1, x: 0 }}
+							initial={{ opacity: 0, x: 100 }}
+							transition={{ duration: 1 }}
+							className='w-3/4 max-w-xl max-w-md:w-full'
+						>
 							<h6 className='font-semibold mb-2'>{project.title}</h6>
 							<p className=' text-neutral-400 mb-4'>{project.description}</p>
 							<div className='flex flex-wrap'>
@@ -29,7 +47,7 @@ const Projects = () => {
 									</span>
 								))}
 							</div>
-						</div>
+						</motion.div>
 					</div>
 				))}
 			</div>
