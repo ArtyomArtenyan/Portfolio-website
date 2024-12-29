@@ -16,6 +16,20 @@ export const EXPERIENCES = [
 		description: ` Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam dolorem iste animi alias qui explicabo illo, asperiores accusamus modi aspernatur perspiciatis ratione mollitia recusandae quaerat dicta. Molestias recusandae doloremque nemo. Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam dolorem iste animi alias qui explicabo illo, asperiores accusamus modi aspernatur perspiciatis ratione mollitia recusandae quaerat dicta. Molestias recusandae doloremque nemo.`,
 		technologies: ['???', '???', '???'],
 	},
+	{
+		year: '2024 - Present',
+		role: '???',
+		company: '???',
+		description: ` Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam dolorem iste animi alias qui explicabo illo, asperiores accusamus modi aspernatur perspiciatis ratione mollitia recusandae quaerat dicta. Molestias recusandae doloremque nemo. Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam dolorem iste animi alias qui explicabo illo, asperiores accusamus modi aspernatur perspiciatis ratione mollitia recusandae quaerat dicta. Molestias recusandae doloremque nemo.`,
+		technologies: ['???', '???', '???'],
+	},
+	{
+		year: '2024 - Present',
+		role: '???',
+		company: '???',
+		description: ` Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam dolorem iste animi alias qui explicabo illo, asperiores accusamus modi aspernatur perspiciatis ratione mollitia recusandae quaerat dicta. Molestias recusandae doloremque nemo. Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam dolorem iste animi alias qui explicabo illo, asperiores accusamus modi aspernatur perspiciatis ratione mollitia recusandae quaerat dicta. Molestias recusandae doloremque nemo.`,
+		technologies: ['???', '???', '???'],
+	},
 ];
 
 export const PROJECTS = [
