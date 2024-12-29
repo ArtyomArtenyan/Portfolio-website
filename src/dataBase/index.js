@@ -1,5 +1,5 @@
+import project1 from '../assets/projects/project1.png';
 import project2 from '../assets/projects/project2.png';
-import project1 from '../assets/projects/prokect1.png';
 
 export const HERO_CONTENT =
 	'   Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam dolorem iste animi alias qui explicabo illo, asperiores accusamus modi aspernatur perspiciatis ratione mollitia recusandae quaerat dicta. Molestias recusandae doloremque nemo.';
