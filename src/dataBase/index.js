@@ -48,7 +48,7 @@ export const PROJECTS = [
 ];
 
 export const CONTACT = {
-	address: '767 Fifth Avenue, New York, NY 10153 ',
-	phoneNo: '+12 4555 666 00 ',
-	email: 'me@example.com',
+	address: 'Vedi, Armenia Tumanyan 3/5',
+	phoneNo: '+374 98225254',
+	email: 'artyomartenyan.ait@gmail.com',
 };
