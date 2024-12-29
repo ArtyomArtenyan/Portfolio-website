@@ -44,7 +44,7 @@ const icons = [
 const Technologies = () => {
 	return (
 		<div className='border-b border-neutral-900 pb-24'>
-			<h2 className='my-20 text-center text-4xl font-bold'>Technologies</h2>
+			<h2 className='my-20 text-center text-4xl '>Technologies</h2>
 			<div className='flex flex-wrap items-center justify-center gap-4'>
 				{icons.map(el => (
 					<div
@@ -53,7 +53,7 @@ const Technologies = () => {
 							el.color || 'text-neutral-400'
 						}`}
 					>
-						<div className='text-6xl'>{el.icon}</div>
+						<div className='text-7xl'>{el.icon}</div>
 					</div>
 				))}
 			</div>
