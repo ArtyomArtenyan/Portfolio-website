@@ -1,6 +1,5 @@
 import { motion } from 'motion/react';
-import React from 'react';
-import profilePic from '../assets/kevinRushProfile.png';
+import profilePic from '../assets/my-img.png';
 import { HERO_CONTENT } from '../dataBase';
 const container = delay => ({
 	hidden: { x: -100, opacity: 0 },
